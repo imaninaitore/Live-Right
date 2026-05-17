@@ -21,4 +21,8 @@ body{
     gap: 20px;
 }
 
-
+.product-card :hover{
+    backdrop-filter: blur(14px);
+cursor: pointer;
+transform: rotateY(180deg);
+}
