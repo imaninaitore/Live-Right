@@ -6,10 +6,19 @@ body{
     background-attachment: fixed;
 }
 
-.product{
+.product{ 
     width: 200px;
     height: 200px;
 }
+
 .product-card img{
     width:100%
 }
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+
