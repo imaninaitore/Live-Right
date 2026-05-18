@@ -136,3 +136,29 @@ select{
         align-items: center;
     }
 }
+
+.footer{
+    background-color: rgb(154, 92, 92);
+
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+
+    padding: 40px;
+    margin-top: 50px;
+
+    flex-wrap: wrap;
+}
+
+.footer-section{
+    width: 250px;
+}
+
+.footer-section h3{
+    color: yellow;
+}
+
+.footer-section h1{
+    justify-content: center;
+    color: yellow;
+}
