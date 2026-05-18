@@ -116,3 +116,23 @@ select{
     cursor: pointer;
     background-color: blanchedalmond;
 }
+
+@media (max-width:768px) {
+    .store-layout{
+        flex-direction: column;
+    }
+    
+    .product-grid{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .side-cart{
+        width: 100%;
+    }
+
+    .navlinks{
+        flex-direction: column;
+        align-items: center;
+    }
+}
